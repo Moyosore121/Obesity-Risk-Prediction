@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import pickle
+import xgboost
 # Load the model and the transformer 
 with open("saved_steps.pkl","rb") as file:
     data = pickle.load(file)

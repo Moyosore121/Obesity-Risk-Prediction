@@ -28,7 +28,19 @@ if page == "Homepage":
     
     Personal information such as age, gender, height, and current weight is also taken into account to tailor the predictions to individual characteristics. This personalized approach enhances the accuracy of the weight range estimation, allowing users to gain valuable insights into their health and wellness journey.""")
 
-    # Disclaimer
+    st.markdown(""" 
+                ## How to use the app 
+                **Getting Started**
+                * Once the app loads, you'll find yourself on the homepage, which provides an overview of the app's purpose (you're reading it now!)
+                
+                **Making an Obesity Prediction**
+                * Click the "Make prediction" button on the menu bar.
+                * You'll be directed to a page with a form. Filling out all the details is required.
+                * Click the "Predict" button to get your predicted obesity level and some recommendations.
+                
+                **Learning More**
+                * To explore information about obesity in detail, click the "Learn More about Obesity" button on the menu bar. This will take you to a dedicated page with relevant information.
+                """)
     # Displaying disclaimer
     st.subheader("Disclaimer")
     st.markdown("---")
